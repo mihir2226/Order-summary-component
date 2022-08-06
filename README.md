@@ -25,12 +25,19 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot.jpg)
+### Desktop
+![c1](https://user-images.githubusercontent.com/99991521/183265465-cb5f3311-1140-4d78-a843-3e934eb48aa8.PNG)
 
+### Active
+![c2](https://user-images.githubusercontent.com/99991521/183265468-1417a308-6cd7-4496-a5a3-51287da1ea4f.PNG)
+
+### Mobile
+![c3](https://user-images.githubusercontent.com/99991521/183265474-bf3fbf04-2793-46c8-9834-5dcd3811a5d7.PNG)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Click here](https://github.com/mihir2226/Order-summary-component)
+- Live Site URL: [Click here](https://your-live-site-url.com)
 
 ## My process
 
