@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(225deg, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.bg__img {
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.order-container {
+  width: 44vh;
+  height: 70vh;
+  background-color: hsl(225deg, 100%, 98%);
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 3vh;
+  border-radius: 2vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.order-container h1 {
+  font-family: inherit;
+  font-weight: 900;
+  margin-top: 5vh;
+  font-size: 3vh;
+}
+.order-container p {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 1.6vh;
+  color: hsl(224deg, 23%, 55%);
+  padding: 0px 4.8vh;
+  margin-top: 2.3vh;
+  line-height: 1.6;
+}
+.order-container .plan-detail {
+  height: 10vh;
+  width: 30.5vh;
+  margin: 3vh auto;
+  padding: 0 2vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 1vh;
+  background-color: hsl(225deg, 100%, 94%);
+}
+.order-container .plan-detail img {
+  width: 5vh;
+  height: 5vh;
+  background-color: hsl(224deg, 23%, 55%);
+  border-radius: 50%;
+}
+.order-container .plan-detail p {
+  margin-top: 0;
+  padding-left: 0;
+}
+.order-container .plan-detail p span {
+  font-family: inherit;
+  font-weight: 900;
+  color: hsl(223deg, 47%, 23%);
+}
+.order-container .plan-detail a {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 1.6vh;
+}
+.order-container .plan-detail a:hover {
+  color: hsl(245deg, 57%, 58%);
+}
+.order-container button {
+  font-family: inherit;
+  font-weight: 700;
+  height: 6vh;
+  width: auto;
+  margin: 0 4.6vh;
+  border-radius: 1.5vh;
+  border: none;
+}
+.order-container .btn-primary {
+  background-color: hsl(245deg, 75%, 52%);
+  color: hsl(225deg, 100%, 98%);
+}
+.order-container .btn-secondry {
+  background-color: transparent;
+  color: hsl(224deg, 23%, 55%);
+}
+.order-container .btn-primary:hover {
+  background-color: hsl(245deg, 57%, 58%);
+}
+.order-container .btn-secondry:hover {
+  color: hsl(223deg, 47%, 23%);
+}
+
+@media (max-width: 376px) {
+  body {
+    height: 100%;
+  }
+  .bg__img {
+    background-image: url(../images/pattern-background-mobile.svg);
+  }
+  .order-container {
+    width: 50vh;
+    margin-top: 26%;
+    margin-bottom: 4vh;
+  }
+  .order-container p {
+    font-size: 2vh;
+    padding: 0px 7.8vh;
+  }
+  .order-container .plan-detail p {
+    font-size: 1.6vh;
+  }
+}/*# sourceMappingURL=styles.css.map */
