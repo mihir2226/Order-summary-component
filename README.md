@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Click here](https://github.com/mihir2226/Order-summary-component)
-- Live Site URL: [Click here](https://your-live-site-url.com)
+- Live Site URL: [Click here](https://mihir2226.github.io/Order-summary-component/)
 
 ## My process
 
